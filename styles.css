@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Alata", sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #597E52;
+    padding: 1px 24px;
+    color: #FFFFEC;
+}
+
+.left-item{
+    font-size: 24px;
+}
+
+.right-item{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 18px;
+}
+
+li{
+    cursor: pointer;
+}
